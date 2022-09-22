@@ -1,20 +1,33 @@
 @charset "UTF-8";
 
+*{
+    background-color:rgba(236, 229, 229, 0.71);
+}
 body{
     margin: 0px;
     padding: 0px;
 }
 nav{
+    margin-left: 20px;
     margin-right: 20px;
-    text-align: right;
     padding: 0px;
     border-color: white;
+}
+#fieldlink{
+    text-align: right;
+}
+#linkaclamado{
+    padding-top: 0px;
+    text-decoration: none;
 }
 fieldset{
     border-style: none;
 }
-#gutssitting{
-    margin-left: 30px;
+#im1{
+    float:right;
+}
+#gutsface{
+    height:366px;
 }
 h1{
     font-size: 40px;
@@ -33,4 +46,8 @@ p{
 }
 div{
     text-indent: 30px;
+}
+#ultlink{
+    margin:40px;
+    text-decoration: none;
 }
