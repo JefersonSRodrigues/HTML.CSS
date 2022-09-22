@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    margin-right: 20px;
+    text-align: right;
+    padding: 0px;
+    border-color: white;
+}
+fieldset{
+    border-style: none;
+}
+#gutssitting{
+    margin-left: 30px;
+}
+h1{
+    font-size: 40px;
+    text-indent: 60px;
+    margin: 10px 20px 20px 20px;
+}
+h2{
+    text-indent: 60px; 
+}
+h3{
+    margin: 20px 20px 20px 0px;
+}
+p{
+    text-indent: 20px;
+    margin: 20px;
+}
+div{
+    text-indent: 30px;
+}
