@@ -4,3 +4,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #393147;
+}
+#corpo_inteiro{
+    display: flex;
+}
+#header{
+    width: 40%;
+    height: 600px;
+    background-color: #362f42;
+    display: flex;
+    align-items: center;
+}
+#main{
+    width: 60%;
+}
+/* IMAGENS ---------------------------------------*/
+#imgp1{
+    width: 500px;
+}
+#imgp2{
+    width: 500px;
+}
+#imgp3{
+    width: 500px;
+}
+#imgp4{
+    width: 500px;
+}
+/* NAV BAR ------------------------------------------*/
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #A089C7;
+}
+/* CORPO --------------------------------------- */
+h1{
+    padding-left: 50px;
+    margin: 20px;
+}
+h2{
+    padding-left: 50px;
+    margin: 10px;
+}
+p{
+    text-indent: 20px;
+    padding-left: 30px;
+}
+#direitos{
+    text-align: center;
+    margin-top: 100px;
+    opacity: 0.5;
+}
+#contatos{
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+}
