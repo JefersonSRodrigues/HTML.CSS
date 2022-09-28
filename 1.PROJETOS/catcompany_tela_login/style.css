@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/*CORPO --------------------------------*/
+body{
+    display: flex;
+}
+#arealogo{
+background-color: #2f1752;
+width: 60%;
+}
+#arealogin{
+background-color: #34195deb;
+width: 40%;
+display: flex;
+justify-content: center;
+}
+/* LOGO ----------------------------------*/
+#catlogo{
+    width: 400px;
+    margin: auto;
+    padding: 13.5%;
+}
+/* FIELDSET -------------------------------*/
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+input{
+    margin: 15px;
+}
+label{
+    padding: 20px;
+}
+#buttondiv{
+    display: flex;
+    justify-content: center;
+}
+#button{
+ font-size: 15px;  
+ background-color: rgb(55, 55, 202);
+ border-radius: 5px;
+ padding: 2px;
+ border-color: rgba(0, 0, 255, 0.463);
+ color:rgba(255, 255, 255, 0.721);
+}
+#button:hover{
+    background-color: rgb(168, 61, 61);
+}
+#pkey{
+    text-align: center;
+    padding:20px
+}
+h2{
+    text-align: center;
+}
+fieldset{
+    position: absolute;
+    background-color: #6b36b790;
+    max-height: 250px;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 10%;
+    border-color: black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.347);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+   color:black;
+}
